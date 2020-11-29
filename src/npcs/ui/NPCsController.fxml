@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import dsatool.ui.ReactiveSpinner?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeItem?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1" fx:id="pane" styleClass="background" >
+   <left>
+      <TreeView fx:id="list" showRoot="false" editable="true" >
+         <TreeItem fx:id="root" />
+      </TreeView>
+   </left>
+   <center>
+      <VBox fx:id="box" spacing="5" >
+         <padding><Insets top="5" right="5" bottom="5" left="5"/></padding>
+         <GridPane hgap="2" vgap="5" >
+            <columnConstraints>
+               <ColumnConstraints hgrow="NEVER" />
+               <ColumnConstraints hgrow="ALWAYS" />
+            </columnConstraints>
+            <children>
+               <Label text="Name:" />
+               <TextField fx:id="name" GridPane.columnIndex="1" />
+               <HBox spacing="3" GridPane.rowIndex="1" GridPane.columnSpan="2">
+                  <Label text="LeP:" alignment="CENTER" maxHeight="Infinity" />
+                  <ReactiveSpinner fx:id="lep" imin="0" imax="999" editable="true" prefWidth="60" />
+                  <Label text="/" alignment="CENTER" maxHeight="Infinity" />
+                  <ReactiveSpinner fx:id="lepMax" imin="0" imax="999" editable="true" prefWidth="60" />
+                  <Label text="AuP:" alignment="CENTER_RIGHT" maxWidth="Infinity" maxHeight="Infinity" HBox.hgrow="ALWAYS" />
+                  <ReactiveSpinner fx:id="aup" imin="0" imax="999" editable="true" prefWidth="60" />
+                  <Label text="/" alignment="CENTER" maxHeight="Infinity" />
+                  <ReactiveSpinner fx:id="aupMax" imin="0" imax="999" editable="true" prefWidth="60" />
+                  <Label text="AsP:" alignment="CENTER_RIGHT" maxWidth="Infinity" maxHeight="Infinity" HBox.hgrow="ALWAYS" />
+                  <ReactiveSpinner fx:id="asp" imin="0" imax="999" editable="true" prefWidth="60" />
+                  <Label text="/" alignment="CENTER" maxHeight="Infinity" />
+                  <ReactiveSpinner fx:id="aspMax" imin="0" imax="999" editable="true" prefWidth="60" />
+                  <Label text="KaP:" alignment="CENTER_RIGHT" maxWidth="Infinity" maxHeight="Infinity" HBox.hgrow="ALWAYS" />
+                  <ReactiveSpinner fx:id="kap" imin="0" imax="999" editable="true" prefWidth="60" />
+                  <Label text="/" alignment="CENTER" maxHeight="Infinity" />
+                  <ReactiveSpinner fx:id="kapMax" imin="0" imax="999" editable="true" prefWidth="60" />
+               </HBox>
+               <HBox spacing="6" GridPane.rowIndex="2" GridPane.columnSpan="2">
+                  <Label text="KO:" alignment="CENTER" maxHeight="Infinity" />
+                  <ReactiveSpinner fx:id="ko" imin="0" imax="99" editable="true" prefWidth="60" />
+                  <Label text="WS:" alignment="CENTER" maxHeight="Infinity" />
+                  <ReactiveSpinner fx:id="ws" imin="0" imax="99" editable="true" prefWidth="60" />
+	              <CheckBox fx:id="wsBonus" text="Eisern" alignment="CENTER_LEFT" maxHeight="Infinity" />
+	              <CheckBox fx:id="wsMalus" text="Glasknochen" alignment="CENTER_LEFT" maxHeight="Infinity" />
+                  <CheckBox fx:id="tough" text="Zäher Hund" alignment="CENTER_LEFT" maxHeight="Infinity" />
+               </HBox>
+            </children>
+         </GridPane>
+      </VBox>
+   </center>
+</BorderPane>

@@ -1,0 +1,4 @@
+{
+	"releaseDate" : "@releaseDate@",
+	"releaseLink" : "https://raw.githubusercontent.com/DSATool/NPCsPlugin/master/release/NPCs_@releaseDate@.zip"
+}
