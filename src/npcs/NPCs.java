@@ -47,7 +47,6 @@ public class NPCs extends Plugin {
 	public void initialize() {
 		Main.addDetachableToolComposite("Kampf", "NSCs", 900, 800, () -> {
 			controller = new NPCsController();
-			getNotifications = true;
 			return controller.getRoot();
 		});
 	}
@@ -58,8 +57,6 @@ public class NPCs extends Plugin {
 	 * @see plugins.Plugin#load()
 	 */
 	@Override
-	public void load() {
-		// TODO!
-	}
+	public void load() {}
 
 }
