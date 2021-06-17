@@ -257,7 +257,7 @@ public class NPCsController {
 
 		reload();
 
-		ResourceManager.addPathListener("npcs/", (discard) -> {
+		ResourceManager.addPathListener("npcs/", discard -> {
 			if (!discard) {
 				reload();
 			}
