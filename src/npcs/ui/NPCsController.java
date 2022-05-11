@@ -129,7 +129,7 @@ public class NPCsController {
 			ErrorLogger.logError(e);
 		}
 
-		basicValuesController = new BasicValuesController(new SimpleBooleanProperty(false), CharacterType.NORMAL);
+		basicValuesController = new BasicValuesController(new SimpleBooleanProperty(false), CharacterType.NORMAL, false);
 		box.getChildren().add(basicValuesController.getControl());
 
 		final StringConverter<Tuple<String, JSONObject>> converter = new StringConverter<>() {
