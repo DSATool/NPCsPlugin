@@ -2,7 +2,7 @@
 <project basedir="." default="deploy" name="NPCs">
     <property name="DSATool.location" value="../DSATool"/>
 	<property name="PluginName" value="NPCs"/>
-	<property name="Includes" value="dependencies/**,licences/**,resources/**"/>
+	<property name="Includes" value="dependencies/**,licenses/**,resources/**"/>
     <target name="deploy" description="Creates JAR archive and deploys it to DSATool plugin directory">
     	<copy todir="${DSATool.location}">
     		<fileset dir="." includes="${Includes}"/>        	
