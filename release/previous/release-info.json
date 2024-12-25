@@ -1,10 +1,10 @@
 {
-	"releaseDate" : "2022-11-26_23-00",
-	"previousReleaseDate" : "2021-05-29_17-00",
-	"previousReleaseLink" : "https://raw.githubusercontent.com/DSATool/NPCsPlugin/master/release/NPCs_2021-05-29_17-00.zip",
+	"releaseDate" : "2024-12-25_19-25",
+	"previousReleaseDate" : "2022-11-26_23-00",
+	"previousReleaseLink" : "https://raw.githubusercontent.com/DSATool/NPCsPlugin/master/release/NPCs_2022-11-26_23-00.zip",
 	"updateInfo" : "https://raw.githubusercontent.com/DSATool/NPCsPlugin/master/release/update-info.json",
 	"signatureProviderName" : "SunEC",
 	"signatureKeyAlgorithm" : "EC",
 	"signatureAlgorithm" : "SHA512withECDSA",
-	"signatureKey" : "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErvE74gxe3T1/ehwVCY4I4I3qk0J0kvtSymfbcVVajwRD5ygvgSbDTjIcXCv9srYiEDxNDyxJXPX3KFiN9XXLkw=="
+	"signatureKey" : "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE985x4iflH4ByWwAfSHalbM4cg4YuPaUKCTSHr/6CK63BMxl4IY57s0WX9ChK/cLeZ2KTy6jG8p/n1mdCKpKPGA=="
 }
