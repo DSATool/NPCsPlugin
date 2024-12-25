@@ -6,5 +6,5 @@
 	"signatureProviderName" : "SunEC",
 	"signatureKeyAlgorithm" : "EC",
 	"signatureAlgorithm" : "SHA512withECDSA",
-	"signatureKey" : "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErvE74gxe3T1/ehwVCY4I4I3qk0J0kvtSymfbcVVajwRD5ygvgSbDTjIcXCv9srYiEDxNDyxJXPX3KFiN9XXLkw=="
+	"signatureKey" : "MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE985x4iflH4ByWwAfSHalbM4cg4YuPaUKCTSHr/6CK63BMxl4IY57s0WX9ChK/cLeZ2KTy6jG8p/n1mdCKpKPGA=="
 }
